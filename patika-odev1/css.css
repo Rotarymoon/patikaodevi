@@ -1,0 +1,280 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.AnasayfaBaslik
+{
+    text-align: center;
+    color: azure;
+    font-size: 29px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: -webkit-linear-gradient(45deg, rgba(165, 157, 157, 0.425), rgba(0, 0, 0, 0.8), rgba(177, 166, 166, 0.418));
+    border-radius: 20px;
+}
+.UfakBaslik
+{
+    text-align: center;
+    padding: 15px;
+    color: rgba(29, 26, 26, 0.801);
+    font-size: 35px;
+}
+                      /* LOGO VE SOSYAL MEDYA DİVİ*/
+.TopAnaDiv
+{
+    background: -webkit-linear-gradient(45deg, rgba(105, 102, 102, 0.808), rgba(0, 0, 0, 0.8), rgba(100, 97, 97, 0.8));
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 55px;
+}
+.TopAnaDivAlani
+{
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+}
+.TopAnaDivSosyalMedya
+{
+    float: right;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 7px;
+    position: relative;
+    transform: scale(1);
+}
+.TopAnaDivLogo
+{
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+.TopAnaDivLogo img
+{
+    height: 40px;
+    width: 70px; 
+    padding: 7px;
+}
+
+
+                            /* ~~~~~~ MENÜ ALANI ~~~~~~ */
+#NavAlani
+{
+    background: linear-gradient(45deg, rgba(214, 209, 209, 0.8), rgba(82, 72, 72, 0.8));
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 55px;
+}
+#MenuAlani
+{
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    display: flex;
+    position: relative;
+    bottom: 0px;
+}
+#MenuAlani #kutu1,#kutu2,#kutu3,#kutu4,#kutu5
+{
+    float: left;
+    margin: 5px auto;
+    border: 4px solid rgba(31, 20, 20, 0.7);
+    border-radius: 5px;
+    height: 25px;
+    background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.8), rgba(100, 97, 97, 0.8));
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    bottom: 2px;
+}
+#MenuAlani a
+{
+    text-decoration: none;
+    color: rgba(78, 199, 255, 0.808);
+    font-size: 19px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    font-size: 19px;
+}
+
+
+
+                                                       /* ANA İÇERİK ALANI*/
+#Anaicerik
+{
+    background: -webkit-linear-gradient(45deg, rgba(224, 219, 219, 0.918), rgba(223, 214, 214, 0.89));
+    height: auto;
+}
+
+                /* YÖNLENDİRME ALANI*/
+.anasayfa-yonlendirme
+{
+    border: 3px solid rgb(100, 100, 100);
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.anasayfa-yonlendirme a
+{
+    color: rgb(153, 73, 15);
+    font-size: 20px;
+    text-decoration: none;
+}
+#yonlendirme_id
+{
+    display: flex;
+}
+
+                        /* SON EKLENEN YAZILAR KISMI */
+#SonYazilarKismi
+{
+    display:block;
+    width: max-content;
+    margin: 0 auto;
+    background-color: rgba(240, 255, 255, 0.527);
+    border-radius: 5px;
+}
+.SonYaziClass
+{
+    padding: 25px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.466);
+    margin: 0 auto;
+    width: max-content;
+    text-align: center;
+    vertical-align:text-top;
+    max-width: 800px;
+}
+.SonYaziClass img
+{
+    height: 128px;
+}
+.sonyazibaslik
+{
+    float: left;
+    color: rgba(165, 157, 157, 0.884);
+}
+
+.sonyazitextsol
+{
+    text-align: left;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.sonyazitextsag
+{
+    text-align: right;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.sonyaziorta
+{
+    text-align: center;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height:170%;
+}
+.kalinbilgi
+{
+    font-weight: 900;
+}
+
+
+
+
+
+            /* DEĞERLER KISMI */
+
+
+#DegerlerKismi
+{
+    display: flex;
+    background: -webkit-linear-gradient(45deg, rgba(218, 209, 209, 0.774), rgba(219, 213, 213, 0.89));
+    padding: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.DegerlerClass
+{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 300px;
+}
+.degerikon img
+{
+    height: 64px;
+}
+.degeryazi
+{
+    color: darkslategray;
+    font-size: 19px;
+    font-weight: 800;
+}
+.ayrac
+{
+    border-left: 1px solid gray;
+    height: 150px;
+}
+
+
+
+
+            /* FOOTER KISMI */
+
+#futirgenisalan
+{
+    background: linear-gradient(90deg, rgb(1, 68, 1), rgb(0, 131, 22));
+    height: auto;
+    display: flex;
+}
+.futirkutu
+{
+    height: auto;
+    width: auto;
+    margin: 15px auto;
+    text-align: center;
+    vertical-align:middle;
+    color: bisque;
+}
+.futirkutu a
+{
+    text-decoration: none;
+    font-family: Georgia, serif;
+    color: rgb(148, 148, 148);
+    line-height: 24px;
+    font-size: 15px;
+}
+.futirkutu img
+{
+    height: 32px;
+}
+.futirkutu h3
+{
+    color:rgb(194, 194, 194)
+}
+.futirkutu p
+{   
+    font-size: 15px;
+    color: rgb(196, 156, 108);
+}
